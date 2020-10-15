@@ -152,23 +152,14 @@
 
         <div id="main" >
             <div class ="post_page_title_img" style="height: 25rem;background-image: url();background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;overflow:hidden;" >
-                <a href="#" style="padding: 4rem 4rem 2rem 4rem ;"><h2 >hexo搭建blog实战</h2></a>
+                <a href="#" style="padding: 4rem 4rem 2rem 4rem ;"><h2 >markdown语法大全</h2></a>
             </div>
             <!-- Post -->
             <div class="typo" style="padding: 3rem;">
-                <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>现在随着计算机的飞速发展，拥有一个属于自己的博客，是一件非常平常的事。使用hexo搭建一个属于自己的个人博客，是即快捷又美观的一种方式，也是非常受到人们的喜爱的。接下来我将带领大家一起搭建自己的博客</p>
-<h1 id="准备工作步骤"><a href="#准备工作步骤" class="headerlink" title="准备工作步骤"></a>准备工作步骤</h1><ol>
-<li>GitHub上面新建一个仓库，用来放自己的博客</li>
-<li>安装git工具，生成SSH添加到GitHub</li>
-<li>本地环境搭建，安装node 和npm</li>
-<li>本地初始化Hexo项目并且运行</li>
-<li>Hexo主题</li>
-<li>部署到github</li>
-<li>生成markdown文件，写文章并且发布</li>
-</ol>
-<h1 id="开始实战"><a href="#开始实战" class="headerlink" title="开始实战"></a>开始实战</h1><h2 id="一、创建github仓库"><a href="#一、创建github仓库" class="headerlink" title="一、创建github仓库"></a>一、创建github仓库</h2><ol>
-<li>新建仓库<br>创建一个和你用户名相同的仓库，后面加.github.io后缀，必须要同名哦，不然后面会出现页面404的情况，点击create respository按钮创建。</li>
-</ol>
+                <p>欢迎来到 markdown语法大全</p>
+<h1 id="一、概述"><a href="#一、概述" class="headerlink" title="一、概述"></a>一、概述</h1><h3 id="现在markDown编译器和各平台支持情况都不太统一，为了达到一些效果会使用语法超集，但有些平台支持不好，请自行裁剪。简书使用的精简语法集合，文中有些语法效果显示不出来，为了发文的格式统一，同时也建议谨慎使用此类语法。"><a href="#现在markDown编译器和各平台支持情况都不太统一，为了达到一些效果会使用语法超集，但有些平台支持不好，请自行裁剪。简书使用的精简语法集合，文中有些语法效果显示不出来，为了发文的格式统一，同时也建议谨慎使用此类语法。" class="headerlink" title="现在markDown编译器和各平台支持情况都不太统一，为了达到一些效果会使用语法超集，但有些平台支持不好，请自行裁剪。简书使用的精简语法集合，文中有些语法效果显示不出来，为了发文的格式统一，同时也建议谨慎使用此类语法。"></a>现在markDown编译器和各平台支持情况都不太统一，为了达到一些效果会使用语法超集，但有些平台支持不好，请自行裁剪。简书使用的精简语法集合，文中有些语法效果显示不出来，为了发文的格式统一，同时也建议谨慎使用此类语法。</h3><h2 id="1-1-设计理念"><a href="#1-1-设计理念" class="headerlink" title="1.1 设计理念"></a>1.1 设计理念</h2><p>【1】Markdown 易于阅读，方便创作web文档，利于各平台无缝分发。<br>【2】Markdown 语法灵感最大的来源还是纯文本 email 的格式，完全由标点符号标签组成的纯文本。<br>【3】Markdown 文件应该以纯文本形式原样发布，不应该包含标记标签和格式化指令。  </p>
+<h2 id="1-2-内联-HTML-语法"><a href="#1-2-内联-HTML-语法" class="headerlink" title="1.2 内联 HTML 语法"></a>1.2 内联 HTML 语法</h2><p>【1】HTML 是一种发布格式，Markdown 是一种创作格式。<br>【2】Markdown语法集合比较小，只是HTML标签的一小部分。<br>【3】对于 Markdown 中未包含的标签, 可以直接使用 HTML标签，例如用 HTML <a> 标签替代 Markdown 的链接语法。</p>
+<h2 id="1-3-特殊字符自动转义"><a href="#1-3-特殊字符自动转义" class="headerlink" title="1.3 特殊字符自动转义"></a>1.3 特殊字符自动转义</h2><p> &emsp;在 HTML 中, 有两个字符需要特殊对待: &lt; 和 &amp;，左尖括号用于起始标签。如果你想将它们用作字面量, 你必须将它们转义为字符实体, 例如&lt; 和 &amp;。  </p>
 
             </div>
 
@@ -231,8 +222,8 @@ $('.btn_click_load').click(function() {
 -->
 <script type="text/javascript">
     var disqus_config = function () {
-        this.page.url = 'http://yoursite.com/2020/08/06/hexo%E6%90%AD%E5%BB%BAblog%E5%AE%9E%E6%88%98/';  // Replace PAGE_URL with your page's canonical URL variable
-        this.page.identifier = 'http://yoursite.com/2020/08/06/hexo%E6%90%AD%E5%BB%BAblog%E5%AE%9E%E6%88%98/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        this.page.url = 'http://yoursite.com/2020/10/15/markdown%E8%AF%AD%E6%B3%95%E5%A4%A7%E5%85%A8/';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'http://yoursite.com/2020/10/15/markdown%E8%AF%AD%E6%B3%95%E5%A4%A7%E5%85%A8/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
     };
 </script>
 
