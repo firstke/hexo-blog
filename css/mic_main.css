@@ -4299,7 +4299,7 @@
 		float: left;
 	}
 	.home-post-info-Category{
-		float: bottom;
+		margin:0px auto;
 	}
 	.home-post-info-Category a{
 		text-decoration: none;
