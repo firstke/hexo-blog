@@ -4300,7 +4300,7 @@
 	}
 	.home-post-info-Category{
 
-		float: right;
+		float: none;
 	}
 	.home-post-info-Category a{
 		text-decoration: none;
