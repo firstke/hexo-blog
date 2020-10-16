@@ -4292,15 +4292,16 @@
 	{
 		height: 90%;
 	}
-	.home-post-info-data{
-		float: none;
+	.home-post-info-date{
+		float: right;
 	}
 	.home-post-info-title{
-		float: none;
+		float: left;
 	}
 	.home-post-info-Category{
-
-		float: none;
+		position:relative;
+		right: 50%;
+		float: left;
 	}
 	.home-post-info-Category a{
 		text-decoration: none;
