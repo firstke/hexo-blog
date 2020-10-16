@@ -4290,14 +4290,17 @@
 	}
 	.home-post-info-author-avatar
 	{
-		height: 70%;
+		height: 90%;
 	}
 	.home-post-info-data{
 		float: right;
 	}
+	.home-post-info-title{
+		float: left;
+	}
 	.home-post-info-Category{
 
-		float: left;
+		float: right;
 	}
 	.home-post-info-Category a{
 		text-decoration: none;
