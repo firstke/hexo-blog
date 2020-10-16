@@ -4286,17 +4286,17 @@
 		text-align: center;
 		margin-left: 1rem;
 		width: 90%;
-		height: 20%;
+		height: 10%;
 	}
 	.home-post-info-author-avatar
 	{
 		height: 90%;
 	}
 	.home-post-info-data{
-		float: right;
+		float: none;
 	}
 	.home-post-info-title{
-		float: left;
+		float: none;
 	}
 	.home-post-info-Category{
 
